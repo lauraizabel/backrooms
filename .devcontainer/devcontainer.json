@@ -1,0 +1,15 @@
+{
+  "name": "Into the Backrooms Server",
+  "image": "mcr.microsoft.com/devcontainers/java:21",
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "8gb"
+  },
+  "forwardPorts": [25565],
+  "portsAttributes": {
+    "25565": {
+      "label": "Minecraft",
+      "onAutoForward": "silent"
+    }
+  }
+}

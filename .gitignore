@@ -1,0 +1,11 @@
+# Arquivos do servidor (nao commitar)
+server/mods/
+server/logs/
+server/crash-reports/
+server/libraries/
+
+# Manter o mundo e configs
+!server/world/
+!server/server.properties
+!server/ops.json
+!server/whitelist.json
